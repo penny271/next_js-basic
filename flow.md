@@ -12,15 +12,24 @@ Ok to proceed? (y) y
 ✔ Would you like to use App Router? (recommended) … No / Yes  --  yes
 ✔ Would you like to customize the default import alias? … No / Yes  --  no
 
-## next js 起動
+## daisyUI インストール
+`npm i -D daisyui@latest`
+
+## tailwind関連
+  ## theme
+  `https://daisyui.com/docs/themes/`
+  ## theme
+  `https://daisyui.com/docs/themes/`
+
+## next js 開発環境 起動(package.jsonのscript部分)
 `npm run dev`
 
 ## appフォルダー配下のcomponentはすべて元から server component である
 => SEOに強い search Engineボットが読み込むことができるから
 ※従来の page routerだと対応していないため、app routerを使う
 
-## abc
-``
+## next js 本番環境 起動(package.jsonのscript部分)
+`npm run start`
 
 ## abc
 ``

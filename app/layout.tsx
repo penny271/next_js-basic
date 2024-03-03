@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   // console.log("children :>> ", children);
   return (
-    <html lang="en">
+    // <html lang="en">
+    // * tailwindのthemeを適用
+    <html lang="en" data-theme="cupcake">
       <body className={inter.className}>{children}</body>
     </html>
   );
